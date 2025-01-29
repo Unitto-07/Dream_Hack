@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 
 def xor_decode(encoded, key):
     decoded = list(encoded)
